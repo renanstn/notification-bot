@@ -1,5 +1,5 @@
-from settings import BOT_TOKEN, CHAT_ID
-from models import NotificationModel
+from .settings import BOT_TOKEN, CHAT_ID
+from .models import NotificationModel
 from fastapi import FastAPI
 from telegram.bot import Bot
 
