@@ -1,4 +1,4 @@
-# Notification Bot
+# Notification Bot :loudspeaker:
 
 É muito comum entre as coisinhas que desenvolvo, a necessidade de eu enviar notificações e alertas para mim mesmo através de um bot no telegram.
 
