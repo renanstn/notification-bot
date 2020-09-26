@@ -17,5 +17,3 @@ async def notify(notification: NotificationModel):
     message += f"{notification.message}"
     bot.send_message(CHAT_ID, message)
     return {'message': 'Notification sent!'}
-
-# uvicorn main:app --reload
