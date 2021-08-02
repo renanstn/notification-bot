@@ -7,8 +7,8 @@ from telegram.bot import Bot
 app = FastAPI()
 
 @app.get('/')
-async def root():
-    return {'message': 'hello world!'}
+async def test():
+    return {'message': "I'm online!"}
 
 @app.post('/notify/')
 async def notify(notification: NotificationModel):
